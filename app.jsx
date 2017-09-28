@@ -1,6 +1,6 @@
 
 const RowTable = (props) => {
-  const _tds = props.items.map((item, index) => <div className='col col-xl-2' key={index}> {item} </div>);
+  const _tds = props.items.map((item, index) => <div className='col col-xl-1' key={index}> {item} </div>);
   return (
     <div className='row'>
       {_tds}
